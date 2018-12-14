@@ -16,6 +16,7 @@ public class DefaultBeanFactoryTest {
 	@Test
 	public void testRegist() throws Exception {
 		System.out.println("我是主分支");
+        System.out.println("我是devA分支的A，开发了A1功能");
 		GenericBeanDefinition bd = new GenericBeanDefinition();
 		bd.setBeanClass(ABean.class);
 		bd.setScope(BeanDefinition.SCOPE_SINGLETION);
